@@ -16,9 +16,6 @@ spec:
         app: petstore
     spec:
       containers:
-      - name: front
-        image: citizendiop/petstore-nginx:v1
-        imagePullPolicy: IfNotPresent
       - name: petstore
         image: citizendiop/petstore-ee7:v1
         imagePullPolicy: IfNotPresent
